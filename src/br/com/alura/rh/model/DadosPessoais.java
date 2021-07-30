@@ -10,7 +10,6 @@ public class DadosPessoais {
 	private BigDecimal salario;
 
 	public DadosPessoais(String nome, String cpf, Cargo cargo, BigDecimal salario) {
-		super();
 		this.nome = nome;
 		this.cpf = cpf;
 		this.cargo = cargo;
@@ -40,4 +39,5 @@ public class DadosPessoais {
 	public void setSalario(BigDecimal salario) {
 		this.salario = salario;
 	}
+
 }
